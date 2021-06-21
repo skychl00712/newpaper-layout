@@ -28,9 +28,11 @@ ul{
   list-style: none;
 }
 #main_header{
-  background: aqua;
+  position: relative;
+  background: rgb(228, 221, 217);
   width: 1400px;
   height: 200px;
+  padding-top: 30px;
   margin:  0 auto;
   
 }
@@ -42,10 +44,38 @@ ul{
 }
 #main_header > .header_group{
   text-align: center;
+
 }
 
 #main_header > .time{
   position: absolute;
   right: 30px;
-  top: 80px;
+  top: 50px;
+}
+.header_group .sub_title{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.header_group > h1{
+  font-size: 76px;
+  font-weight: bold;
+  line-height: 76px;
+  margin-bottom: 0.8rem; /* 기본 한칸크기 */
+}
+.header_group {
+  text-transform: uppercase;
+  font-size: small;
+}
+.header_group .copy{
+  text-transform: uppercase;
+  font-size: small;
+  color: #333;
+}
+.time{
+    font-size: 2em;
+    text-align: right;
+}
+.date{
+  letter-spacing: 1.3px;
 }
