@@ -29,18 +29,18 @@ ul{
 }
 #main_header{
   position: relative;
-  background: rgb(228, 221, 217);
+  background: rgb(255, 255, 255);
   width: 1400px;
   height: 200px;
   padding-top: 30px;
   margin:  0 auto;
-  
+  margin-top: 30px;
 }
 #main_header > .barcode{
   position: absolute;
   width: 200px;
   left: 30px;
-  top: 50px;
+  top: 55px;
 }
 #main_header > .header_group{
   text-align: center;
@@ -73,9 +73,45 @@ ul{
   color: #333;
 }
 .time{
+  font-weight: bold;
     font-size: 2em;
     text-align: right;
 }
 .date{
   letter-spacing: 1.3px;
+}
+.day{
+  line-height: 2rem;
+  padding-top: 15px;
+}
+
+#gnb{
+   font-size: 20px;
+   font-weight: 600;
+   margin:  0 auto;
+   width: 1400px;
+   background: white;
+   border-top: black solid 2px;
+   border-bottom: black solid 4px;
+   position: relative;
+   text-align: center;padding-right: 30px;
+   padding-left: 30px;
+   text-transform: uppercase;
+}
+#gnb ul{
+  overflow: hidden;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#gnb > ul > li{
+  float: left; 
+  width: calc(100% / 5);
+  border-left:  1px solid black;
+}
+#gnb > ul > li:last-child{
+  border-right: black solid 1px;
+}
+#gnb > ul > li > a{
+  color: #333;
+  text-decoration: none;
 }
