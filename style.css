@@ -32,9 +32,9 @@ ul{
   background: rgb(255, 255, 255);
   width: 1400px;
   height: 200px;
-  padding-top: 30px;
+  padding-top: 20px;
   margin:  0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 #main_header > .barcode{
   position: absolute;
@@ -56,12 +56,15 @@ ul{
   font-size: 24px;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
 }
 .header_group > h1{
-  font-size: 76px;
+  font-size: 70px;
   font-weight: bold;
-  line-height: 76px;
-  margin-bottom: 0.8rem; /* 기본 한칸크기 */
+  line-height: 70px;
+  margin-top: 0;
+  
+
 }
 .header_group {
   text-transform: uppercase;
@@ -71,6 +74,7 @@ ul{
   text-transform: uppercase;
   font-size: small;
   color: #333;
+ 
 }
 .time{
   font-weight: bold;
@@ -83,6 +87,7 @@ ul{
 .day{
   line-height: 2rem;
   padding-top: 15px;
+  font-size: 30px;
 }
 
 #gnb{
@@ -94,8 +99,9 @@ ul{
    border-top: black solid 2px;
    border-bottom: black solid 4px;
    position: relative;
-   text-align: center;padding-right: 30px;
-   padding-left: 30px;
+   text-align: center;
+   padding-right: 20px;
+   padding-left: 20px;
    text-transform: uppercase;
 }
 #gnb ul{
@@ -115,3 +121,124 @@ ul{
   color: #333;
   text-decoration: none;
 }
+
+p{
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  line-height: 1.8;
+}
+h4{
+  font-size: 19px;
+  font-weight: 15px;
+  margin-top: 5px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+h4 > span{
+  font-weight: bold;
+}
+h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+h1{
+  font-size: 35px;
+}
+#contents{
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px ;
+  background: #fff;
+  border:  1px solid #dfdfdf;
+  column-count: 3;
+ 
+}
+article{
+  break-after: column;
+}
+article img{
+  width: 100%;
+}
+.today img{
+  width: 100px;
+}
+
+article:first-child h1{
+   text-align: center;
+   margin-bottom: 1em;
+   font-family: 'Times New Roman', Times, serif;
+   letter-spacing: 2px;
+   font-size: 60px;
+   line-height: 60px;
+}
+article:first-child(2) h2 span{
+  font-weight: normal;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a > span{
+  color: red;
+}
+.banner1{
+   margin-top: 1em;
+}
+#siderbar figure{
+  padding: 2em;
+  border: solid black 1px;
+}
+#siderbar figure h3{
+  font-size: 36px;
+  letter-spacing: 0.5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+hr{
+  background-color: #ccc;
+  height: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.left-btn , .right-btn{
+  color: red;
+  margin-left: 10px;
+}
+.left-btn{
+  left: 10px;
+  top: 160px;
+}
+.right-btn{
+  right: 10px;
+  top: 160px;
+}
+
+#siderbar .today{
+ position: relative;
+ padding-bottom: 10px;
+ border-bottom: black 1px solid;
+  
+}
+.fw500, .email{
+  padding: 0;
+  margin: 0;
+}
+.info{
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+  
+}
+.notice > ul{
+  margin-left: 20px;
+}
+.notice > ul > li{
+  list-style: disc;
+  color: red;
+  margin-top: 5px;
+}
+
+
+
